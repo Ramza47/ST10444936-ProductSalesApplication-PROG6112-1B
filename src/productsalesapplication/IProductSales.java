@@ -1,0 +1,7 @@
+
+package productsalesapplication;
+
+
+interface IProductSales {
+    
+}
