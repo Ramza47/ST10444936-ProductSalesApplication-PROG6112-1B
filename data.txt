@@ -1,0 +1,12 @@
+=== PRODUCT SALES REPORT ===
+
+Total Sales: 2200.0
+Average Sales: 366.67
+
+Sales Over Limit (500):
+Year 1: 700.0 
+Year 2: 600.0 
+
+Sales Under Limit (500):
+Year 1: 300.0 150.0 
+Year 2: 250.0 200.0 
