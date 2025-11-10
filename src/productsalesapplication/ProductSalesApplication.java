@@ -20,7 +20,7 @@ public class ProductSalesApplication {
     private final int limit = 500;
 
     // Method to calculate total sales
-    public static double calculateTotalSales(double[][] productSales) {
+     double calculateTotalSales(double[][] productSales) {
         double total = 0;
         for (double[] year : productSales) {
             for (double sale : year) {
@@ -113,8 +113,7 @@ public class ProductSalesApplication {
         frame.add(header, BorderLayout.NORTH);
 
         // Buttons
-        JPanel buttonPanel = new JPanel();
-        JPanel body = new JPanel(new GridLayout(4, 2));
+        JPanel buttonPanel = new JPanel(new GridLayout(1, 2, 10, 10));
         JButton btnLoadProductData = new JButton("Load Product Data");
         JButton btnSaveProductData = new JButton("Save Product Data");
         buttonPanel.add(btnLoadProductData);
